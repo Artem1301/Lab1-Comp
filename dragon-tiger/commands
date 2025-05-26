@@ -1,3 +1,3 @@
 src/driver/dtiger -o fibonacci.o fibonacci.tig
 clang++ -no-pie fibonacci.o src/runtime/posix/libruntime.a -o fibonacci
-/fibonacci
+./fibonacci
