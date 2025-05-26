@@ -1,3 +1,7 @@
 src/driver/dtiger -o fibonacci.o fibonacci.tig
 clang++ -no-pie fibonacci.o src/runtime/posix/libruntime.a -o fibonacci
-./fibonacci
+./fibonacci   
+
+src/driver/dtiger -o read_unsigned.o read_unsigned.tig
+clang++ -no-pie read_unsigned.o src/runtime/posix/libruntime.a -o read_unsigned
+./read_unsigned
